@@ -17,13 +17,7 @@ packages:
   gitUsername: v1adp0s2-wmio
   gitBranch: master
 services:
-- serviceName: project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
-  packages:
-  - name: UAE_VLPO_4Project
-    version: "1.0"
-  - name: Local_Assets
-    version: "1.0"
-- serviceName: project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_3
+- serviceName: project.uae_vlpo_4.integrations:EmployeeGet
   packages:
   - name: UAE_VLPO_4Project
     version: "1.0"
