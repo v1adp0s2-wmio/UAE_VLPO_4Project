@@ -15,10 +15,6 @@ services:
   packages:
   - name: UAE_VLPO_4Project
     version: "1.0"
-- serviceName: pub.string:concat
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1969
 - serviceName: pub.flow:clearPipeline
   packages:
   - name: WmPublic
