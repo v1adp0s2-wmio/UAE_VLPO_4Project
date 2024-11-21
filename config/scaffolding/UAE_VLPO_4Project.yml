@@ -10,6 +10,11 @@ packages:
 - name: WmJDBCAdapter
   wpmServer: https://packages.webmethods.io
   wpmRegistry: softwareag
+- name: Local_Assets
+  gitServerName: VLPO_WMIO
+  gitUrl: https://github.com/v1adp0s2-wmio
+  gitUsername: v1adp0s2-wmio
+  gitBranch: master
 services:
 - serviceName: project.uae_vlpo_4.integrations:Hello_Edge_2
   packages:
@@ -30,9 +35,9 @@ configurationVariables:
   : "false"
   ? artConnection.UAE_VLPO_4Project.project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.otherProperties
   : loginTimeout=60;
-  ? artConnection.UAE_VLPO_4Project.project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
-  : "10"
   ? artConnection.UAE_VLPO_4Project.project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.UAE_VLPO_4Project.project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
   : "10"
   ? artConnection.UAE_VLPO_4Project.project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
   : "1000"
