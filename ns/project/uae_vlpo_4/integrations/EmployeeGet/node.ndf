@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">vladimir.postu@ibm.com</value>
-    <value name="createdDate">1731908280508</value>
-    <value name="lastModifiedDate">1731908280508</value>
+    <value name="lastModifiedBy">vladimir.postu@ibm.com</value>
+    <value name="lastModifiedDate">1732553016156</value>
     <value name="displayName">EmployeeGet</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -62,7 +61,13 @@
         <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
-        <null name="operation"/>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">EmployeeSelect5</value>
+          <null name="description"/>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="projectName">project.uae_vlpo_4</value>
+        </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
         <Boolean name="allowCustomOperations">true</Boolean>
@@ -76,6 +81,30 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <double name="rank" type="Double">1.2000000000000002</double>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">Database_4</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.uae_vlpo_4.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_4</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
