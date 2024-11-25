@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vladimir.postu@ibm.com</value>
-    <value name="lastModifiedDate">1732553056454</value>
+    <value name="lastModifiedDate">1732553128515</value>
     <value name="displayName">EmployeeGet</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -126,6 +126,26 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">JSON</value>
+          <value name="groupName">json</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">documentToJSONString</value>
+          <value name="serviceName">pub.json:documentToJSONString</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+        <null name="mapSet"/>
         <null name="outputMapSet"/>
       </record>
     </record>
