@@ -156,7 +156,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vladimir.postu@ibm.com</value>
-    <value name="lastModifiedDate">1732553956036</value>
+    <value name="lastModifiedDate">1732554033228</value>
     <value name="displayName">EmployeeGet</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -252,12 +252,27 @@
         <value name="nodePathForDebug">1.0</value>
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
+        <value name="name">REPEAT</value>
         <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
-        <number name="ui_step_index" type="Long">4</number>
+        <record name="in_array" javaclass="com.wm.util.Values">
+          <value name="name">/EmployeeSelect5Output/results</value>
+          <value name="type">record</value>
+          <value name="dim">1</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">results</value>
+          <null name="wrapper_type"/>
+        </record>
         <value name="nodePathNew">1.1</value>
         <number name="nodeIndex" type="Long">1</number>
         <number name="lineNumberForDebug" type="Long">4</number>
+      </record>
+      <record name="/1/1/0" javaclass="com.wm.util.Values">
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">5</number>
+        <value name="nodePathNew">1.1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">5</number>
         <array name="map" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
@@ -270,7 +285,7 @@
         </array>
         <value name="nodePathForDebug">1.1</value>
       </record>
-      <record name="/1/1/0" javaclass="com.wm.util.Values">
+      <record name="/1/1/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
@@ -279,7 +294,7 @@
           <value name="transformerSupport">true</value>
         </record>
       </record>
-      <record name="/1/1/1" javaclass="com.wm.util.Values">
+      <record name="/1/1/0/1" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <record name="serviceName" javaclass="com.wm.util.Values">
@@ -288,12 +303,16 @@
           <value name="transformerSupport">true</value>
         </record>
       </record>
+      <null name="/1/1/0/2"/>
+      <null name="/1/1/0/3"/>
+      <null name="/1/1/0/4"/>
+      <null name="/1/1/1"/>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
         <value name="itemType">CONTROLS</value>
         <value name="nodePathNew">2</value>
         <number name="nodeIndex" type="Long">2</number>
-        <number name="lineNumberForDebug" type="Long">5</number>
+        <number name="lineNumberForDebug" type="Long">7</number>
         <value name="nodePathForDebug">2</value>
       </record>
       <record name="/2/0" javaclass="com.wm.util.Values">
@@ -312,7 +331,7 @@
         <number name="ui_step_index" type="Long">6</number>
         <value name="nodePathNew">2.0</value>
         <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">6</number>
+        <number name="lineNumberForDebug" type="Long">8</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
@@ -331,14 +350,15 @@
           <value name="serviceName">pub.flow:clearPipeline</value>
           <value name="transformerSupport">false</value>
         </record>
-        <number name="ui_step_index" type="Long">7</number>
+        <number name="ui_step_index" type="Long">9</number>
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
-        <number name="lineNumberForDebug" type="Long">7</number>
+        <number name="lineNumberForDebug" type="Long">9</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
         <value name="nodePathForDebug">3</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
