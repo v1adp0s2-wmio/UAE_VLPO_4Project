@@ -156,7 +156,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vladimir.postu@ibm.com</value>
-    <value name="lastModifiedDate">1732554033228</value>
+    <value name="lastModifiedDate">1732554101601</value>
     <value name="displayName">EmployeeGet</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -294,18 +294,9 @@
           <value name="transformerSupport">true</value>
         </record>
       </record>
-      <record name="/1/1/0/1" javaclass="com.wm.util.Values">
-        <value name="itemType">SERVICES</value>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">objectToString</value>
-          <value name="serviceName">pub.string:objectToString</value>
-          <value name="transformerSupport">true</value>
-        </record>
-      </record>
+      <null name="/1/1/0/1"/>
       <null name="/1/1/0/2"/>
       <null name="/1/1/0/3"/>
-      <null name="/1/1/0/4"/>
       <null name="/1/1/1"/>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">CATCH</value>
