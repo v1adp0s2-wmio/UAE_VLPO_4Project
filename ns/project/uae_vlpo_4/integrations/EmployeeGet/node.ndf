@@ -156,7 +156,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">vladimir.postu@ibm.com</value>
-    <value name="lastModifiedDate">1732554611712</value>
+    <value name="lastModifiedDate">1732554639470</value>
     <value name="displayName">EmployeeGet</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">

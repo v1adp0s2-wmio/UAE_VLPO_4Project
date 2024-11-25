@@ -1062,7 +1062,7 @@
 </INVOKE>
 </SEQUENCE>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline" DISABLED="true">
+<INVOKE NAME="Flow" SERVICE="pub.flow:clearPipeline">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
